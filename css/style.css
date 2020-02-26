@@ -8036,7 +8036,8 @@ h1, h2, h3, h4, h5,
   top: 0;
   left: 0;
   right: 0;
-  z-index: 3; }
+  z-index: 3;
+ }
   .ftco-navbar-light #navbar_logo{
     border-radius: 10px;
     padding-right: 10px;
@@ -8113,7 +8114,9 @@ h1, h2, h3, h4, h5,
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
         padding-left: 0;
         padding-right: 0;
-        padding-bottom: 0; } }
+        padding-bottom: 0;
+        font-size: 16px;
+       } }
   .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu {
     border: none;
     background: #fff;
@@ -8170,8 +8173,13 @@ h1, h2, h3, h4, h5,
     cursor: pointer;
     padding-right: 0;
     text-transform: uppercase;
-    font-size: 16px;
-    letter-spacing: .1em; }
+    font-size: 1.5rem;
+    letter-spacing: .1em;
+    font-family: proxima-nova, sans-serif; 
+    font-style: normal;
+    font-weight: 100;
+  }
+  
     .ftco-navbar-light .navbar-toggler:hover, .ftco-navbar-light .navbar-toggler:focus {
       text-decoration: none;
       color: #169fc4;
@@ -8218,12 +8226,7 @@ h1, h2, h3, h4, h5,
         color: #fff !important; }
     .ftco-navbar-light.scrolled .nav-item.cta.cta-colored span {
       border-color: #169fc4; }
-    @media (max-width: 991.98px) {
-      .ftco-navbar-light.scrolled .navbar-nav {
-        background: none;
-        border-radius: 0px;
-        padding-left: 0rem !important;
-        padding-right: 0rem !important; } }
+    
     .ftco-navbar-light.scrolled .navbar-toggler {
       border: none;
       color: rgba(0, 0, 0, 0.5) !important;
@@ -8231,8 +8234,12 @@ h1, h2, h3, h4, h5,
       cursor: pointer;
       padding-right: 0;
       text-transform: uppercase;
-      font-size: 16px;
-      letter-spacing: .1em; }
+      font-size: 1.5rem;
+      letter-spacing: .1em;
+      font-family: proxima-nova, sans-serif; 
+      font-style: normal;
+      font-weight: 100;
+  }
     .ftco-navbar-light.scrolled .nav-link {
       padding-top: 0.9rem !important;
       padding-bottom: 0.9rem !important;
@@ -10290,3 +10297,36 @@ video {
 #cdpap_new_eligible_q h1, #cdpap_new_eligible_q p{
   color: white;
 }
+@media (max-width: 991.98px) {
+  .ftco-navbar-light.scrolled .navbar-nav {
+    background: none;
+    border-radius: 0px;
+    padding-left: 0rem !important;
+    padding-right: 0rem !important; } 
+  .ftco-navbar-light .navbar-toggler {
+      border: none;
+      color: rgba(0, 0, 0, 0.5) !important;
+      border-color: rgba(0, 0, 0, 0.5) !important;
+      cursor: pointer;
+      padding-right: 0;
+      text-transform: uppercase;
+      font-size: 16px;
+      letter-spacing: .1em;
+      font-family: proxima-nova, sans-serif; 
+      font-style: normal;
+      font-weight: 100;
+  }
+  .ftco-navbar-light.scrolled .navbar-toggler {
+      border: none;
+      color: rgba(0, 0, 0, 0.5) !important;
+      border-color: rgba(0, 0, 0, 0.5) !important;
+      cursor: pointer;
+      padding-right: 0;
+      text-transform: uppercase;
+      font-size: 16px;
+      letter-spacing: .1em;
+      font-family: proxima-nova, sans-serif; 
+      font-style: normal;
+      font-weight: 100;
+  }
+  }
