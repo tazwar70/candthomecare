@@ -100,7 +100,7 @@
 			<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center"
 				data-scrollax-parent="true">
 				<div class="col-md-10 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-					<h1 class="mb-0" style="font-family: proxima-nova, sans-serif;font-style: normal;font-weight: 100;font-size: 2.5rem;">How can C&T help you today?</h1>
+					<h1 class="mb-0" style="font-family: proxima-nova, sans-serif;font-style: normal;font-weight: 100;font-size: 2.5rem;"><a href="" data-toggle="modal" data-target="#contact_us_modal" style="color: white;">How can C&T help you today?</a></h1>
 					<!-- <h3 class="text-white">How can <b>C</b>&<b>T</b> help you today!</h3> -->
 				</div>
 					<div class="mouse">
@@ -414,6 +414,56 @@
 	</div>
 
 	<!-- Our Locations Hidden Content -->
+
+	<!-- Contact Us Modal -->
+	<div class="modal fade" id="contact_us_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header" style="background: var(--dark_blue);">
+					<h4 class="modal-title" id="exampleModalLabel" style="color: white;">Our Locations</h4>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					
+									<!-- Form -->
+									<form action="#" class="bg-light p-5 contact-form" id="contactForm">
+										<!-- Alert -->
+										<div class="alert alert-success alert-dismissible fade show" role="alert" style="display: none;" id="contact-form-mail-alert">
+											<h4 class="alert-heading text-center">Success!</h4>
+											<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+											<hr>
+											<p class="mb-0">Your message has been successfully sent.</p>
+										</div>
+										<!-- Alert -->
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Your Name" id="get_email_name" required>
+										</div>
+										<div class="form-group">
+											<input type="email" class="form-control" placeholder="Your Email" id="get_email_id" required>
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Subject" id="get_email_subject" required>
+										</div>
+										<div class="form-group">
+											<textarea cols="30" rows="7" class="form-control" placeholder="Message" id="get_email_msg" required></textarea>
+										</div>
+										<div class="form-group">
+											<button type="submit" value="Send Message" class="btn py-3 px-5" id="send_email" style="font-family: proxima-nova, sans-serif; font-style: normal;font-weight: 100;background-color: #558bc9;color: white;">Send Message</button>
+										</div>
+									</form>
+									<!-- Form -->
+				</div>
+				<div class="modal-footer" style="background: var(--dark_blue);">
+					<h4 style="color: white;">Thank You for visiting C&T Home Care</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Contact Us Modal -->
 
 	<!-- Footer -->
 	<footer class="page-footer" id="footer">
