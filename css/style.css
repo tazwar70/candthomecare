@@ -8031,14 +8031,13 @@ h1, h2, h3, h4, h5,
   color: #169fc4 !important; }
 
 .ftco-navbar-light {
-  background: transparent !important;
+  background: #BDC3C7 !important;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   z-index: 3; }
   .ftco-navbar-light #navbar_logo{
-    background: white;
     border-radius: 10px;
     padding-right: 10px;
     /* background-color: #ddddddd0; */
