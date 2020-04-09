@@ -22,7 +22,10 @@
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="css/magnific-popup.css">
-	<link rel="stylesheet" href="fontawesome/css/all.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css"
+    integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css"
+    integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous" />
 
 	<link rel="stylesheet" href="css/aos.css">
 
@@ -37,7 +40,6 @@
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
 
-	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
 </head>
 
 <body>
@@ -62,7 +64,7 @@
 					<li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
 					<li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
 					<li class="nav-item"><a href="CDPAP.html" class="nav-link">CDPAP</a></li>					
-					<li class="nav-item active"><a href="aidelogin.html" class="nav-link">Aide Login</a></li>
+					<li class="nav-item active"><a href="aidelogin.html" class="nav-link"><i class="fad fa-angle-right"></i> Aide Login</a></li>
 					<li class="nav-item" id="menu_item_eligibility"><a href="" class="nav-link" data-toggle="modal" data-target="#exampleModal">Check Eligibility</a></li>
 					<li class="nav-item">
 						<div id="google_translate_element"></div>
@@ -74,7 +76,6 @@
 	<!-- END nav -->
 
 <!-- Landing Screen -->
-	<!-- <div class="hero-wrap js-fullheight" style="background-image: url('images/unsplash_1.jpg');" data-stellar-background-ratio="0.2" id="animated-bg"> -->
 	<div class="hero-wrap js-fullheight" style="background-image: url('https://images.unsplash.com/photo-1479981280584-037818c1297d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');" data-stellar-background-ratio="0.2">
 		<div class="overlay"></div>
 		<div class="container">
@@ -118,118 +119,124 @@
 <!-- Landing Screen -->
 
 
-<!-- Alert -->
-<!-- <div class="alert alert-success alert-dismissible fade show" role="alert" id="forgotmypasswordalert" style="display: none;top: 25%;z-index: 9999;position: fixed;width: 40%;justify-content: center;">
-	<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-		<span aria-hidden="true">&times;</span>
-	</button>
-	<h4 class="alert-heading">Well done!</h4>
-	<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
-	<hr>
-	<p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
-</div> -->
-<!-- Alert -->
+
 
 	
 
 <!-- Eligibility Hidden Content -->
 
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-aria-hidden="true">
-<div class="modal-dialog" role="document">
-	<div class="modal-content">
-		<div class="modal-header">
-			<h5 class="modal-title" id="exampleModalLabel">Find out about Your Eligibility</h5>
-			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				<span aria-hidden="true">&times;</span>
-			</button>
-		</div>
-		<div class="modal-body">
-
-			<!-- Alert -->
-			<div class="alert alert-success alert-dismissible fade show" role="alert" style="display: none;" id="eligibility-form-alert">
-				<h4 class="alert-heading text-center">Success!</h4>
-				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Find out about Your Eligibility</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
-				<hr>
-				<p class="mb-0">Thank you for filling it out. We will contact you soon.</p>
 			</div>
-			<!-- Alert -->
+			<div class="modal-body">
 
-			<!-- Form -->
-			<form class="p-1 contact-form" id="eligibility_form">
-				<div class="form-group">
-					<input type="text" class="form-control" placeholder="Full Name" id="eligibility_email_name" required>
-				</div>
-				<div class="form-group">
-					<input type="email" class="form-control" placeholder="Email" id="eligibility_email_id" required>
-				</div>
-				<div class="form-group">
-					<input type="tel" class="form-control" placeholder="Phone Number" id="eligibility_email_phone" required>
-				</div>
+				<!-- Form -->
+				<iframe name="hiddenframe2" width="0" height="0" border="0" style="display: none;"></iframe>
 
-				<fieldset class="form-group">
-					<div class="row">
-					  <legend class="col-form-label col pt-0" style="color: var(--dark_blue);font-weight: 500;">Are you the patient?</legend>
-					  <div class="col-sm-10">
-						<div class="form-check">
-						  <input class="form-check-input" type="radio" name="gridRadios" id="pat-q-yes" value="yes" >
-						  <label class="form-check-label" for="pat-q-yes">
-							Yes
-						  </label>
-						</div>
-						<div class="form-check">
-						  <input class="form-check-input" type="radio" name="gridRadios" id="pat-q-no" value="no">
-						  <label class="form-check-label" for="pat-q-yes">
-							No
-						  </label>
-						</div>
-					  </div>
+				<form role="form" method="POST" target="hiddenframe2" action="/php-contact-mail/handler-eligibility.php"
+					class="p-1 contact-form" id="eligibility_form">
+
+					<!-- Alert -->
+					<div class="alert alert-success alert-dismissible fade show" role="alert"
+						id="eligibility-form-alert">
+						<h4 class="alert-heading text-center">Success!</h4>
+						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<hr>
+						<p class="mb-0">Thank you for filling it out. We will contact you soon.</p>
 					</div>
-				  </fieldset>
+					<!-- Alert -->
 
-				  <fieldset class="form-group">
-					<div class="row">
-					  <legend class="col-form-label col pt-0" style="color: var(--dark_blue);font-weight: 500;">Does the patient have Medicaid?</legend>
-					  <div class="col-sm-10">
-						<div class="form-check">
-						  <input class="form-check-input" type="radio" name="gridRadiosB" id="medicaid-q-yes" value="yes" >
-						  <label class="form-check-label" for="medicaid-q-yes">
-							Yes
-						  </label>
-						</div>
-						<div class="form-check">
-						  <input class="form-check-input" type="radio" name="gridRadiosB" id="medicaid-q-no" value="no">
-						  <label class="form-check-label" for="medicaid-q-no">
-							No
-						  </label>
-						</div>
-						<div class="form-check disabled">
-						  <input class="form-check-input" type="radio" name="gridRadiosB" id="medicaid-q-idk" value="I Don't Know">
-						  <label class="form-check-label" for="medicaid-q-idk">
-							I don't know
-						  </label>
-						</div>
-					  </div>
+					<div class="form-group" style="display: none;">
+						<input type="text" name="Source" id=""
+							value="This is from the Check Eligibility Form from the website.">
 					</div>
-				  </fieldset>
-				  <p style="color: orangered;text-align: center;">Please note all fields are required*</p>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Full Name" id="eligibility_email_name" name="name"
+							required>
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" placeholder="Email" id="eligibility_email_id" name="email"
+							required>
+					</div>
+					<div class="form-group">
+						<input type="tel" class="form-control" placeholder="Phone Number" name="phone number"
+							id="eligibility_email_phone" required>
+					</div>
 
-				<div class="form-group">
-					<button type="button" onclick="sendEligibilityForm(event)" value="Check Eligibility" class="btn py-3 px-5" style="font-family: proxima-nova, sans-serif; font-style: normal;font-weight: 100;" id="eligibility_form_submit">Check Eligibility</button>
-				</div>
-			</form>
-			
-			<!-- Form -->
-		</div>
-		<div class="modal-footer">
-			<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-	<button type="button" class="btn btn-primary">Save changes</button> -->
-			<h5>Thank You for visiting C&T Home Care</h5>
+					<fieldset class="form-group" name="patient?">
+						<div class="row">
+							<legend class="col-form-label col pt-0"
+								style="color: var(--dark_blue);font-weight: 500;">Are you the patient?</legend>
+							<div class="col-sm-10">
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="Are you the Patient?" id="pat-q-yes"
+										value="yes">
+									<label class="form-check-label" for="pat-q-yes">
+										Yes
+									</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="Are you the Patient?" id="pat-q-no"
+										value="no">
+									<label class="form-check-label" for="pat-q-yes">
+										No
+									</label>
+								</div>
+							</div>
+						</div>
+					</fieldset>
+
+					<fieldset class="form-group" name="MEDICAID?">
+						<div class="row">
+							<legend class="col-form-label col pt-0"
+								style="color: var(--dark_blue);font-weight: 500;">Does the patient have Medicaid?
+							</legend>
+							<div class="col-sm-10">
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="Does the patient have Medicaid?"
+										id="medicaid-q-yes" value="yes">
+									<label class="form-check-label" for="medicaid-q-yes">
+										Yes
+									</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="Does the patient have Medicaid?"
+										id="medicaid-q-no" value="no">
+									<label class="form-check-label" for="medicaid-q-no">
+										No
+									</label>
+								</div>
+								<div class="form-check disabled">
+									<input class="form-check-input" type="radio" name="Does the patient have Medicaid?"
+										id="medicaid-q-idk" value="I Don't Know">
+									<label class="form-check-label" for="medicaid-q-idk">
+										I don't know
+									</label>
+								</div>
+							</div>
+						</div>
+					</fieldset>
+					<p style="color: orangered;text-align: center;">Please note all fields are required*</p>
+					<div class="form-group" style="text-align: center;">
+						<button type="submit" class="btn py-3 px-5" style="font-size: 1.5rem;border-radius: 17px;background-color: var(--cnt_blue);color: white;font-family: proxima-nova, sans-serif;font-style: normal;font-weight: 100;" id="send_eligibility">Check Eligibility</button>
+					</div>
+				</form>
+				<!-- Form -->
+				
+			</div>
+			<div class="modal-footer">
+				<h5>Thank You for Visiting C&T Home Care</h5>
+			</div>
 		</div>
 	</div>
-</div>
 </div>
 
 <!-- Eligibility Hidden Content -->
@@ -272,20 +279,16 @@ aria-hidden="true">
 	<script src="js/aos.js"></script>
 	<script src="js/jquery.animateNumber.min.js"></script>
 	<script src="js/bootstrap-datepicker.js"></script>
-	<!-- <script src="js/jquery.timepicker.min.js"></script> -->
 	<script src="js/scrollax.min.js"></script>
-	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"> -->
 	</script>
-	<!-- <script src="js/google-map.js"></script> -->
 	<script src="js/main.js"></script>
 	<!-- Google Translate -->
 	<script src="js/google-translate.js"></script>
 	<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 	<!-- Google Translate -->
+	<script src="/php-contact-mail/form.js"></script>
+	<script src="/php-contact-mail/form-eligibility.js"></script>
 
-	<!-- Animated Background -->
-	<!-- <script src="js/animated-bg.js"></script> -->
-	<!-- Animated Background -->
 
 </body>
 

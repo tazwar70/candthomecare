@@ -22,7 +22,12 @@
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="css/magnific-popup.css">
-	<link rel="stylesheet" href="fontawesome/css/all.css">
+	
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css"
+    integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous" />
+  	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css"
+    integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 
 	<link rel="stylesheet" href="css/aos.css">
 
@@ -35,7 +40,12 @@
 
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- New Version of Bootsrap -- 4.4.1 -->
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+	<!-- New Version of Bootsrap -- 4.4.1 -->
 	<link rel="stylesheet" href="css/style.css">
+
+	
 
 	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
 </head>
@@ -48,7 +58,11 @@
 				<img src="logo/C&T Logo_roundedborder.png" alt="" id="navbar_logo">
 			</div>
 			<div class="col-9 d-flex align-items-center text-right">
-				<ul class="ftco-social mt-2 mr-3">
+				<ul class="ftco-social">
+					<li style="height: 100%; width:auto; margin: 0; padding: 0;">
+						<span  data-toggle="tooltip" data-placement="right" title="GIDA">
+						<a href="/GIDA/index.html"><img src="/GIDA/logo/gida_favicon.png" alt="" style="height: 100%; width: 100%;"></a></li>
+						</span>
 				</ul>
 				<button class="navbar-toggler d-flex align-items-center" type="button" data-toggle="collapse"
 					data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false"
@@ -59,11 +73,12 @@
 			</div>
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav text-right ml-auto">
-					<li class="nav-item active"><a href="home.html" class="nav-link">Home</a></li>
+					<li class="nav-item active"><a href="home.html" class="nav-link"><i class="fad fa-angle-right"></i> Home</a></li>
 					<li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
-					<li class="nav-item"><a href="CDPAP.html" class="nav-link">CDPAP</a></li>					
+					<li class="nav-item"><a href="CDPAP.html" class="nav-link">CDPAP</a></li>
 					<li class="nav-item"><a href="aidelogin.html" class="nav-link">Aide Login</a></li>
-					<li class="nav-item" id="menu_item_eligibility"><a href="" class="nav-link" data-toggle="modal" data-target="#exampleModal">Check Eligibility</a></li>
+					<li class="nav-item" id="menu_item_eligibility"><a href="" class="nav-link" data-toggle="modal"
+							data-target="#exampleModal">Check Eligibility</a></li>
 					<li class="nav-item">
 						<div id="google_translate_element"></div>
 					</li>
@@ -77,33 +92,31 @@
 
 	<div class="hero-wrap js-fullheight" data-stellar-background-ratio="0.2">
 		<div class="overlay"></div>
-		
+
 		<div id="background_video">
 			<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
 				<source src="video/video.mp4" type="video/mp4">
-					<!-- 
-						firebase hosted video: https://firebasestorage.googleapis.com/v0/b/candt-home-care.appspot.com/o/video%20(1).mp4?alt=media&token=e27a73bd-8575-4e09-a078-79ea45428ed9
-						Video in 1080p: https://vod-progressive.akamaized.net/exp=1581363758~acl=%2A%2F1547082252.mp4%2A~hmac=8aaefd508b6bb23edf47cd28c98395c8d46eb1edb2cf7fb03574d08f78de8e70/vimeo-prod-skyfire-std-us/01/4466/14/372332062/1547082252.mp4
-						Download Link: https://www.pexels.com/video/a-young-woman-teaching-an-elderly-woman-how-to-use-a-laptop-3209763/
-					-->
 			</video>
 		</div>
-		
+
 		<div class="container">
 			<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center"
 				data-scrollax-parent="true">
 				<div class="col-md-10 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-					<h1 class="mb-0" style="font-family: proxima-nova, sans-serif;font-style: normal;font-weight: 100;font-size: 2.5rem;"><a href="" data-toggle="modal" data-target="#contact_us_modal" style="color: white;">How can C&T help you today?</a></h1>
-					<!-- <h3 class="text-white">How can <b>C</b>&<b>T</b> help you today!</h3> -->
+					<h1 class="mb-0"
+						style="font-family: proxima-nova, sans-serif;font-style: normal;font-weight: 100;font-size: 2.5rem;">
+						<a href="" data-toggle="modal" data-target="#contact_us_modal" style="color: white;">How can C&T
+							help you today?</a></h1>
 				</div>
-					<div class="mouse">
-						<a class="mouse-icon" onclick="document.getElementById('company_motto').scrollIntoView({behavior: 'auto',block: 'center',inline: 'center'});">
-							<div class="mouse-wheel"><span class="ion-ios-arrow-down"></span></div>
-						</a>
-					</div>
+				<div class="mouse">
+					<a class="mouse-icon"
+						onclick="document.getElementById('company_motto').scrollIntoView({behavior: 'auto',block: 'center',inline: 'center'});">
+						<div class="mouse-wheel"><span class="ion-ios-arrow-down"></span></div>
+					</a>
 				</div>
 			</div>
 		</div>
+	</div>
 	</div>
 
 	<!-- Full Screen Video -->
@@ -114,27 +127,21 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-10 daily-verse text-center p-5">
-					<!-- <span class="flaticon-social-care"></span> -->
-					<!-- <h1 class="h5 mt-4 font-weight-bold ftco-animate notranslate" id="home_header_h1"
-						style="font-family: proxima-nova, sans-serif; font-style: normal; font-weight: 100; ">C&T Home
-						Care</h1> -->
-					<!-- <h3 class="ftco-animate" id="home_header_h3">"At C&T, our goal is simple — to provide the highest
-						standard of care through compassion and dedication. We aim to build lifelong relationships by
-						earning your trust, all the while helping you gain the independence you desire to enjoy a more
-						comfortable lifestyle."</h3> -->
-						<div class="row">
-							<div class="col-md">
-								<h3 style="font-size: 1.5rem;">Choose Family or Friends as your Paid Care Giver!</h3>
+					<div class="row">
+						<div class="col-md">
+							<h3 style="font-size: 1.5rem;">Choose Family or Friends as your Paid Care Giver!</h3>
 							</h3>
-							</div>
-							<div class="col-md" style="align-self: center;">
-								<h3 style="border-top: thin solid;border-bottom: thin solid;border-color: rgba(255, 255, 255, 0.589);margin-left: 40px; margin-right: 40px;"><b>Paid by MEDICAID!</b></h3>	
-							</div>
-							<div class="col-md">
-								<h3 style="font-size: 1.5rem;">No Training required to become a care giver!</h3>
-							</div>
 						</div>
-						<h3 class="ftco-animate"></h3>
+						<div class="col-md" style="align-self: center;">
+							<h3
+								style="border-top: thin solid;border-bottom: thin solid;border-color: rgba(255, 255, 255, 0.589);margin-left: 40px; margin-right: 40px;">
+								<b>Paid by MEDICAID!</b></h3>
+						</div>
+						<div class="col-md">
+							<h3 style="font-size: 1.5rem;">No Training required to become a care giver!</h3>
+						</div>
+					</div>
+					<h3 class="ftco-animate"></h3>
 
 				</div>
 			</div>
@@ -143,9 +150,9 @@
 	<!-- Welcome -->
 
 	<!-- Testimony -->
-	<!-- <section class="ftco-section testimony-section" style="background-image: url('https://images.pexels.com/photos/1642883/pexels-photo-1642883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');background-size: cover; background-position: center; background-repeat: no-repeat;"> -->
 
-	<section class="ftco-section testimony-section" style="background-image: url('https://images.pexels.com/photos/1642883/pexels-photo-1642883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');background-size: cover; background-position: center; background-repeat: no-repeat;">
+	<section class="ftco-section testimony-section"
+		style="background-image: url('https://images.pexels.com/photos/1642883/pexels-photo-1642883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');background-size: cover; background-position: center; background-repeat: no-repeat;">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row justify-content-center mb-5 pb-3">
@@ -210,9 +217,6 @@
 	</section>
 	<!-- Testimony Ends here -->
 
-
-
-
 	<!-- Services -->
 	<section class="ftco-section" style="background: white;">
 		<div class="container">
@@ -268,13 +272,26 @@
 				</div>
 			</div>
 		</div>
+		<div class="container text-center justify-content-center ftco-animate" style="margin-top: 3rem;">
+			<a href="family-information.html" class="justify-content-center" id="btn_home_for_more">
+				Family Portal
+				<i class="fad fa-angle-right"></i>
+			</a>
+		</div>
+		<div class="container text-center justify-content-center ftco-animate" style="margin-top: 3rem;">
+			<a href="/GIDA/index.html" class="justify-content-center" id="btn_home_gida">
+				GIDA
+				<i class="fad fa-angle-right"></i>
+			</a>
+		</div>
 	</section>
 	<!-- Services -->
 
 
 	<!-- Eligibility Hidden Content -->
 
-	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
@@ -285,87 +302,106 @@
 				</div>
 				<div class="modal-body">
 
-					<!-- Alert -->
-					<div class="alert alert-success alert-dismissible fade show" role="alert" style="display: none;" id="eligibility-form-alert">
-						<h4 class="alert-heading text-center">Success!</h4>
-						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
-						</button>
-						<hr>
-						<p class="mb-0">Thank you for filling it out. We will contact you soon.</p>
-					</div>
-					<!-- Alert -->
-
 					<!-- Form -->
-					<form class="p-1 contact-form" id="eligibility_form">
-						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Full Name" id="eligibility_email_name" required>
-						</div>
-						<div class="form-group">
-							<input type="email" class="form-control" placeholder="Email" id="eligibility_email_id" required>
-						</div>
-						<div class="form-group">
-							<input type="tel" class="form-control" placeholder="Phone Number" id="eligibility_email_phone" required>
-						</div>
-	
-						<fieldset class="form-group">
-							<div class="row">
-							  <legend class="col-form-label col pt-0" style="color: var(--dark_blue);font-weight: 500;">Are you the patient?</legend>
-							  <div class="col-sm-10">
-								<div class="form-check">
-								  <input class="form-check-input" type="radio" name="gridRadios" id="pat-q-yes" value="yes" >
-								  <label class="form-check-label" for="pat-q-yes">
-									Yes
-								  </label>
-								</div>
-								<div class="form-check">
-								  <input class="form-check-input" type="radio" name="gridRadios" id="pat-q-no" value="no">
-								  <label class="form-check-label" for="pat-q-yes">
-									No
-								  </label>
-								</div>
-							  </div>
-							</div>
-						  </fieldset>
-	
-						  <fieldset class="form-group">
-							<div class="row">
-							  <legend class="col-form-label col pt-0" style="color: var(--dark_blue);font-weight: 500;">Does the patient have Medicaid?</legend>
-							  <div class="col-sm-10">
-								<div class="form-check">
-								  <input class="form-check-input" type="radio" name="gridRadiosB" id="medicaid-q-yes" value="yes" >
-								  <label class="form-check-label" for="medicaid-q-yes">
-									Yes
-								  </label>
-								</div>
-								<div class="form-check">
-								  <input class="form-check-input" type="radio" name="gridRadiosB" id="medicaid-q-no" value="no">
-								  <label class="form-check-label" for="medicaid-q-no">
-									No
-								  </label>
-								</div>
-								<div class="form-check disabled">
-								  <input class="form-check-input" type="radio" name="gridRadiosB" id="medicaid-q-idk" value="I Don't Know">
-								  <label class="form-check-label" for="medicaid-q-idk">
-									I don't know
-								  </label>
-								</div>
-							  </div>
-							</div>
-						  </fieldset>
-						  <p style="color: orangered;text-align: center;">Please note all fields are required*</p>
+					<iframe name="hiddenframe2" width="0" height="0" border="0" style="display: none;"></iframe>
 
+					<form role="form" method="POST" target="hiddenframe2" action="/php-contact-mail/handler-eligibility.php"
+						class="p-1 contact-form" id="eligibility_form">
+
+						<!-- Alert -->
+						<div class="alert alert-success alert-dismissible fade show" role="alert"
+							id="eligibility-form-alert">
+							<h4 class="alert-heading text-center">Success!</h4>
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<hr>
+							<p class="mb-0">Thank you for filling it out. We will contact you soon.</p>
+						</div>
+						<!-- Alert -->
+
+						<div class="form-group" style="display: none;">
+							<input type="text" name="Source" id=""
+								value="This is from the Check Eligibility Form from the website.">
+						</div>
 						<div class="form-group">
-							<button type="button" onclick="sendEligibilityForm(event)" value="Check Eligibility" class="btn  py-3 px-5" style="font-family: proxima-nova, sans-serif; font-style: normal;font-weight: 100;" id="eligibility_form_submit">Check Eligibility</button>
+							<input type="text" class="form-control" placeholder="Full Name" id="eligibility_email_name" name="name"
+								required>
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control" placeholder="Email" id="eligibility_email_id" name="email"
+								required>
+						</div>
+						<div class="form-group">
+							<input type="tel" class="form-control" placeholder="Phone Number" name="phone number"
+								id="eligibility_email_phone" required>
+						</div>
+
+						<fieldset class="form-group" name="patient?">
+							<div class="row">
+								<legend class="col-form-label col pt-0"
+									style="color: var(--dark_blue);font-weight: 500;">Are you the patient?</legend>
+								<div class="col-sm-10">
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="Are you the Patient?" id="pat-q-yes"
+											value="yes">
+										<label class="form-check-label" for="pat-q-yes">
+											Yes
+										</label>
+									</div>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="Are you the Patient?" id="pat-q-no"
+											value="no">
+										<label class="form-check-label" for="pat-q-yes">
+											No
+										</label>
+									</div>
+								</div>
+							</div>
+						</fieldset>
+
+						<fieldset class="form-group" name="MEDICAID?">
+							<div class="row">
+								<legend class="col-form-label col pt-0"
+									style="color: var(--dark_blue);font-weight: 500;">Does the patient have Medicaid?
+								</legend>
+								<div class="col-sm-10">
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="Does the patient have Medicaid?"
+											id="medicaid-q-yes" value="yes">
+										<label class="form-check-label" for="medicaid-q-yes">
+											Yes
+										</label>
+									</div>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="Does the patient have Medicaid?"
+											id="medicaid-q-no" value="no">
+										<label class="form-check-label" for="medicaid-q-no">
+											No
+										</label>
+									</div>
+									<div class="form-check disabled">
+										<input class="form-check-input" type="radio" name="Does the patient have Medicaid?"
+											id="medicaid-q-idk" value="I Don't Know">
+										<label class="form-check-label" for="medicaid-q-idk">
+											I don't know
+										</label>
+									</div>
+								</div>
+							</div>
+						</fieldset>
+						<p style="color: orangered;text-align: center;">Please note all fields are required*</p>
+						<div class="form-group" style="text-align: center;">
+							<button type="submit" class="btn py-3 px-5" style="font-size: 1.5rem;border-radius: 17px;background-color: var(--cnt_blue);color: white;font-family: proxima-nova, sans-serif;font-style: normal;font-weight: 100;" id="send_eligibility">Check Eligibility</button>
 						</div>
 					</form>
-					
 					<!-- Form -->
+
 				</div>
 				<div class="modal-footer">
 					<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 			<button type="button" class="btn btn-primary">Save changes</button> -->
-					<h5>Thank You for visiting C&T Home Care</h5>
+					<h5>Thank You for Visiting C&T Home Care</h5>
 				</div>
 			</div>
 		</div>
@@ -376,7 +412,8 @@
 
 	<!-- Our Locations Hidden Content -->
 
-	<div class="modal fade" id="ourLocations_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal fade" id="ourLocations_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
 		<div class="modal-dialog modal-lg" role="document">
 			<div class="modal-content">
 				<div class="modal-header" style="background: var(--dark_blue);">
@@ -388,20 +425,34 @@
 				<div class="modal-body">
 					<div class="row">
 						<div class="col-md google-maps" id="ourlocations_col">
-							<iframe src="https://www.google.com/maps/d/embed?mid=11Wv2-SaiBQu967GPAk6MQ-HWxpic_nFA&hl=en&z=10" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<iframe
+								src="https://www.google.com/maps/d/embed?mid=11Wv2-SaiBQu967GPAk6MQ-HWxpic_nFA&hl=en&z=10"
+								width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 						</div>
 						<div class="col-md">
-							<a id="ourlocations_all"><h4><i class="icon-map"></i> All Locations</h4></a>
-							<a id="ourlocations_1"><h4><i class="icon-map"></i> C&T Home Care - Hillside Avenue, Jamaica</h4></a>
-							<a id="ourlocations_2"><h4><i class="icon-map"></i> C&T Home Care - St Nicholas Ave</h4></a>
-							<a id="ourlocations_3"><h4><i class="icon-map"></i> C&T Home Care - The Bronx</h4></a>
-							<a id="ourlocations_4"><h4><i class="icon-map"></i> C&T Home Care - Great Neck</h4></a>
-							<a id="ourlocations_5"><h4><i class="icon-map"></i> C&T Home Care - Jackson Heights</h4></a>
+							<a id="ourlocations_all">
+								<h4><i class="fad fa-map-marked-alt"></i> All Locations</h4>
+							</a>
+							<a id="ourlocations_1">
+								<h4><i class="fad fa-map-marked-alt"></i> C&T Home Care - Hillside Avenue, Jamaica</h4>
+							</a>
+							<a id="ourlocations_2">
+								<h4><i class="fad fa-map-marked-alt"></i> C&T Home Care - St Nicholas Ave</h4>
+							</a>
+							<a id="ourlocations_3">
+								<h4><i class="fad fa-map-marked-alt"></i> C&T Home Care - Bronx</h4>
+							</a>
+							<a id="ourlocations_4">
+								<h4><i class="fad fa-map-marked-alt"></i> C&T Home Care - Great Neck</h4>
+							</a>
+							<a id="ourlocations_5">
+								<h4><i class="fad fa-map-marked-alt"></i> C&T Home Care - Jackson Heights</h4>
+							</a>
 						</div>
 					</div>
 				</div>
 				<div class="modal-footer" style="background: var(--dark_blue);">
-					<h4 style="color: white;">Thank You for visiting C&T Home Care</h4>
+					<h4 style="color: white;">Thank You for Visiting C&T Home Care</h4>
 				</div>
 			</div>
 		</div>
@@ -410,50 +461,77 @@
 	<!-- Our Locations Hidden Content -->
 
 	<!-- Contact Us Modal -->
-	<div class="modal fade" id="contact_us_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal fade" id="contact_us_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header" style="background: var(--dark_blue);">
-					<h4 class="modal-title" id="exampleModalLabel" style="color: white;">Our Locations</h4>
+					<h4 class="modal-title" id="exampleModalLabel" style="color: white;">How can C&T help you today?
+					</h4>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
 				<div class="modal-body">
-					
-									<!-- Form -->
-									<form action="#" class="contact-form" id="contactForm">
-										<!-- Alert -->
-										<div class="alert alert-success alert-dismissible fade show" role="alert" style="display: none;" id="contact-form-mail-alert">
-											<h4 class="alert-heading text-center">Success!</h4>
-											<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-												<span aria-hidden="true">&times;</span>
-											</button>
-											<hr>
-											<p class="mb-0">Your message has been successfully sent.</p>
-										</div>
-										<!-- Alert -->
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Your Name" id="get_email_name" required>
-										</div>
-										<div class="form-group">
-											<input type="email" class="form-control" placeholder="Your Email" id="get_email_id" required>
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Subject" id="get_email_subject" required>
-										</div>
-										<div class="form-group">
-											<textarea cols="30" rows="7" class="form-control" placeholder="Message" id="get_email_msg" required></textarea>
-										</div>
-										<p style="color: orangered;text-align: center;">Please note all fields are required*</p>
-										<div class="form-group">
-											<button type="submit" value="Send Message" class="btn py-3 px-5" id="send_email" style="font-family: proxima-nova, sans-serif; font-style: normal;font-weight: 100;background-color: #558bc9;color: white;">Send Message</button>
-										</div>
-									</form>
-									<!-- Form -->
+
+					<!-- Form -->
+					<iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
+
+					<form role="form" method="post" target="hiddenFrame" action="/php-contact-mail/handler.php"
+						class="contact-form" id="contactForm">
+						<!-- Alert -->
+						<div class="alert alert-success alert-dismissible fade show" role="alert" id="success_message">
+							<h4 class="alert-heading text-center">Success!</h4>
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<hr>
+							<p class="mb-0">Your message has been successfully sent.</p>
+						</div>
+
+						<div class="alert alert-danger alert-dismissible fade show" role="alert" id="error_message">
+							<h4 class="alert-heading text-center">Failed!</h4>
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							<hr>
+							<p class="mb-0">Your message was not sent.</p>
+						</div>
+						<!-- Alert -->
+						<!-- This is hidden just to pass contact form data -->
+						<div class="form-group" style="display: none;">
+							<input type="text" name="Source" id=""
+								value="This is from the Contact Us Form from the website.">
+						</div>
+						<!-- This is hidden just to pass contact form data -->
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Your Name" id="name" name="name"
+								required>
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control" placeholder="Your Email" id="email" name="email"
+								required>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Subject" id="subject" name="subject"
+								required>
+						</div>
+						<div class="form-group">
+							<textarea cols="30" rows="7" name="message" class="form-control" placeholder="Message"
+								id="message" required></textarea>
+						</div>
+						<p style="color: orangered;text-align: center;">Please note all fields are required*</p>
+						<div class="form-group">
+							<button type="submit" class="btn py-3 px-5" id="send_email"
+								style="font-family: proxima-nova, sans-serif; font-style: normal;font-weight: 100;background-color: #558bc9;color: white;"><i class="fad fa-paper-plane"></i> Send
+								Message</button>
+						</div>
+					</form>
+					<!-- Form -->
+
 				</div>
 				<div class="modal-footer" style="background: var(--dark_blue);">
-					<h4 style="color: white;">Thank You for visiting C&T Home Care</h4>
+					<h4 style="color: white;">Thank You for Visiting C&T Home Care</h4>
 				</div>
 			</div>
 		</div>
@@ -480,8 +558,9 @@
 				<div class="col-sm-4 ftco-animate">
 					<!-- Content -->
 					<h3><span style="border-bottom: 2px solid rgba(255, 255, 255, 0.589);">Our Locations</span></h3>
-					<h4 style="margin-bottom: 2rem; margin-top: 1rem;">Click the button below the see all our locations.</h4>
-					<a href="" id="find_us_button" data-toggle="modal" data-target="#ourLocations_modal"><i class="icon-map"></i>  Find Us</a>
+					<h4 style="margin-bottom: 2rem; margin-top: 1rem;">Click the button below the see all our locations.
+					</h4>
+					<a href="" id="find_us_button" data-toggle="modal" data-target="#ourLocations_modal"><i class="fad fa-map-marked-alt"></i> Find Us</a>
 				</div><!-- Grid column -->
 				<div class="col-sm-4 ftco-animate">
 					<!-- Content -->
@@ -491,17 +570,11 @@
 						©<script type="text/javascript">
 							document.write(new Date().getFullYear());
 						</script> - All Rights Reserved</h4>
-					<h4><a href="privacy.html"><i class="icon-legal"></i> Our Privacy Policy</a></h4>
+					<h4><a href="privacy.html"><i class="fad fa-gavel"></i> Our Privacy Policy</a></h4>
 				</div>
 	</footer>
 	<!-- Footer -->
 
-	<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-database.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-analytics.js"></script>
-	<script src="js/firebase-initialize.js"></script>
-	<script src="js/firebase-eligibility-form.js"></script>
-	<script src="js/firebase-contact-form.js"></script>
 	<script src="js/modalourlocations.js"></script>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -516,17 +589,20 @@
 	<script src="js/jquery.animateNumber.min.js"></script>
 	<script src="js/bootstrap-datepicker.js"></script>
 	<script src="js/scrollax.min.js"></script>
-	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"> -->
 	</script>
 	<!-- Google Translate -->
 	<script src="js/google-translate.js"></script>
 	<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 	<!-- Google Translate -->
-
-	<!-- Animated Background -->
-	<!-- <script src="js/animated-bg.js"></script> -->
-	<!-- Animated Background -->
+	<script>
+		$(document).ready(function(){
+		$('[data-toggle="tooltip"]').tooltip();
+	});
+	</script>
 	<script src="js/main.js"></script>
+	<script src="/php-contact-mail/form.js"></script>
+	<script src="/php-contact-mail/form-eligibility.js"></script>
+
 
 
 
